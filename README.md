@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Meet-Debashish
 =======
 # Portfolio Website
@@ -77,4 +76,3 @@ src/
 - ✅ TypeScript for type safety
 - ✅ All sections from the provided content
 - ✅ Clean, maintainable code structure
->>>>>>> 4e8e7fa (Portfolio website basic)
