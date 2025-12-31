@@ -14,57 +14,50 @@ A modern, performant portfolio website built with React, TypeScript, and Tailwin
 
 ### Installation
 
-npm install
-
-text
+```npm install```
 
 ### Development
 
 Start the development server:
 
-npm run dev
+```npm run dev```
 
-text
-
-The site will be available at `http://localhost:5173`.
+The site will be available at ```http://localhost:5173```.
 
 ### Build
 
 Create a production build:
 
-npm run build
-
-text
+```npm run build```
 
 ### Preview
 
 Preview the production build locally:
 
+```
+bash
 npm run preview
-
-text
-
-## Project Structure
-
+```
+```
 src/
 ├── components/
-│ ├── Hero.tsx
-│ ├── About.tsx
-│ ├── WhatIWorkOn.tsx
-│ ├── TechStack.tsx
-│ ├── FeaturedProjects.tsx
-│ ├── Hackathons.tsx
-│ ├── Leadership.tsx
-│ ├── Mindset.tsx
-│ ├── WhatsNext.tsx
-│ ├── GitHub.tsx
-│ ├── Contact.tsx
-│ └── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── WhatIWorkOn.tsx
+│   ├── TechStack.tsx
+│   ├── FeaturedProjects.tsx
+│   ├── Hackathons.tsx
+│   ├── Leadership.tsx
+│   ├── Mindset.tsx
+│   ├── WhatsNext.tsx
+│   ├── GitHub.tsx
+│   ├── Contact.tsx
+│   └── Navbar.tsx
 ├── App.tsx
 ├── main.tsx
 └── index.css
+```
 
-text
 
 ## Features
 
