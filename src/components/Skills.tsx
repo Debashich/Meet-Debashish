@@ -3,7 +3,7 @@ import SkillCard from './SkillCard';
 
 const TechStack: React.FC = () => {
   const allSkills = [
-    
+
     { name: 'Go', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg' },
     { name: 'Python', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
     { name: 'TypeScript', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
@@ -26,8 +26,8 @@ const TechStack: React.FC = () => {
     { name: 'NumPy', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg' },
     { name: 'Pandas', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg' },
     { name: 'Matplotlib', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg' },
-    { name: 'Seaborn', img_src: 'https://raw.githubusercontent.com/mwaskom/seaborn/master/doc/_static/logo-wide-lightbg.svg' },
-    { name: 'MySQL', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+    { name: 'Seaborn', img_src: 'https://seaborn.pydata.org/_images/logo-mark-lightbg.svg' },
+    { name: 'MySQL', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg', style: { filter: 'brightness(0) saturate(100%) invert(59%) sepia(91%) saturate(2319%) hue-rotate(360deg) brightness(101%) contrast(101%)' }}
 
   ];
 
