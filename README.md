@@ -47,22 +47,22 @@ text
 ## Project Structure
 
 src/
-├── components/ # Reusable React components
-│ ├── Hero.tsx # Hero section
-│ ├── About.tsx # About / journey
-│ ├── WhatIWorkOn.tsx # Areas of focus
-│ ├── TechStack.tsx # Technology stack
-│ ├── FeaturedProjects.tsx # Project showcase
-│ ├── Hackathons.tsx # Hackathons and achievements
-│ ├── Leadership.tsx # Leadership and community work
-│ ├── Mindset.tsx # Philosophy and mindset
-│ ├── WhatsNext.tsx # Future direction
-│ ├── GitHub.tsx # GitHub overview
-│ ├── Contact.tsx # Contact section
-│ └── Navbar.tsx # Navigation bar
-├── App.tsx # Root application component
-├── main.tsx # Application entry point
-└── index.css # Global styles (Tailwind)
+├── components/
+│ ├── Hero.tsx
+│ ├── About.tsx
+│ ├── WhatIWorkOn.tsx
+│ ├── TechStack.tsx
+│ ├── FeaturedProjects.tsx
+│ ├── Hackathons.tsx
+│ ├── Leadership.tsx
+│ ├── Mindset.tsx
+│ ├── WhatsNext.tsx
+│ ├── GitHub.tsx
+│ ├── Contact.tsx
+│ └── Navbar.tsx
+├── App.tsx
+├── main.tsx
+└── index.css
 
 text
 
