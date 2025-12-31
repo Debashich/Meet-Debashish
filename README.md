@@ -1,78 +1,79 @@
-# Meet-Debashish
-=======
-# Portfolio Website
+# Meet Debashish
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+A modern, performant portfolio website built with React, TypeScript, and Tailwind CSS.
 
 ## Tech Stack
 
-- **React** - UI library
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Styling
-- **HTML/CSS** - Markup and styling
+- React – Component-based UI library
+- TypeScript – Static typing for safer code
+- Vite – Fast dev server and build tool
+- Tailwind CSS – Utility-first styling
+- HTML/CSS – Semantic markup and base styling
 
 ## Getting Started
 
 ### Installation
 
-```bash
 npm install
-```
+
+text
 
 ### Development
 
-Run the development server:
+Start the development server:
 
-```bash
 npm run dev
-```
 
-The site will be available at `http://localhost:5173`
+text
+
+The site will be available at `http://localhost:5173`.
 
 ### Build
 
-Build for production:
+Create a production build:
 
-```bash
 npm run build
-```
+
+text
 
 ### Preview
 
-Preview the production build:
+Preview the production build locally:
 
-```bash
 npm run preview
-```
+
+text
 
 ## Project Structure
 
-```
 src/
-├── components/          # React components
-│   ├── Hero.tsx        # Hero section
-│   ├── About.tsx       # About/Journey section
-│   ├── WhatIWorkOn.tsx # Areas of experience
-│   ├── TechStack.tsx   # Tech stack display
-│   ├── FeaturedProjects.tsx # Project showcase
-│   ├── Hackathons.tsx  # Hackathons & achievements
-│   ├── Leadership.tsx  # Leadership & community
-│   ├── Mindset.tsx     # Mindset section
-│   ├── WhatsNext.tsx   # Future direction
-│   ├── GitHub.tsx      # GitHub section
-│   ├── Contact.tsx     # Contact information
-│   └── Navbar.tsx      # Navigation bar
-├── App.tsx             # Main app component
-├── main.tsx            # Entry point
-└── index.css           # Global styles with Tailwind
-```
+├── components/ # Reusable React components
+│ ├── Hero.tsx # Hero section
+│ ├── About.tsx # About / journey
+│ ├── WhatIWorkOn.tsx # Areas of focus
+│ ├── TechStack.tsx # Technology stack
+│ ├── FeaturedProjects.tsx # Project showcase
+│ ├── Hackathons.tsx # Hackathons and achievements
+│ ├── Leadership.tsx # Leadership and community work
+│ ├── Mindset.tsx # Philosophy and mindset
+│ ├── WhatsNext.tsx # Future direction
+│ ├── GitHub.tsx # GitHub overview
+│ ├── Contact.tsx # Contact section
+│ └── Navbar.tsx # Navigation bar
+├── App.tsx # Root application component
+├── main.tsx # Application entry point
+└── index.css # Global styles (Tailwind)
+
+text
 
 ## Features
 
-- ✅ Fully responsive design
-- ✅ Smooth scrolling navigation
-- ✅ Modern UI with Tailwind CSS
-- ✅ TypeScript for type safety
-- ✅ All sections from the provided content
-- ✅ Clean, maintainable code structure
+- Responsive layout that adapts across devices
+- Section-based navigation with smooth scrolling
+- Modern UI built with Tailwind CSS utilities
+- Type-safe React codebase using TypeScript
+- Clear, modular component structure for maintenance and extension
+
+## License
+
+MIT
