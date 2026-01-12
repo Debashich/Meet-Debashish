@@ -6,7 +6,7 @@ const FeaturedProjects: React.FC = () => {
     {
       title: 'GopherNet',
       type: 'Full-Stack Web Application',
-      tech: 'Go, MySQL, React, TypeScript, Tailwind, Docker, Nginx',
+      tech: 'Go, MySQL, React, TypeScript, Docker, Nginx',
       description: 'A backend-first full-stack application built with a modular Go architecture and a modern React frontend.',
       highlights: [
         'Modular backend design in Go',
@@ -18,18 +18,20 @@ const FeaturedProjects: React.FC = () => {
       projectPage: '/gophernet',
     },
     {
-      title: 'Project Alpha',
-      type: 'Backend API Service',
-      tech: 'Go, PostgreSQL, Docker',
+      title: 'Atlas',
+      type: 'Event Discovery & Planning Platform',
+      tech: 'Go, PostgreSQL, Docker, React, TypeScript',
       description: 'A scalable REST API built for high-performance data processing.',
       highlights: [
         'JWT authentication system',
-        'Database optimization',
-        'Microservices architecture',
+        'Event aggregation & normalization engine',
+        'Real-time conflict detection',
+        'GitHub Actions CI/CD pipeline',
+        'Search & filtering with caching',
       ],
-      github: 'https://github.com/Debashich',
+      github: 'https://github.com/Debashich/Atlas',
       demo: '#',
-      projectPage: '/projectalpha',
+      projectPage: '/atlas',
     },
     // {
     //   title: 'DevOps Pipeline',
