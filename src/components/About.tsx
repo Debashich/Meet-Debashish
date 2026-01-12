@@ -1,6 +1,8 @@
 import React from "react";
 
+
 const RESUME_URL = "/DEBASHISH_SINHA_RESUME.pdf";
+
 
 const About: React.FC = () => {
   return (
@@ -17,6 +19,7 @@ const About: React.FC = () => {
             </h2>
             <div className="w-16 h-1 bg-orange-500"></div>
           </div>
+
 
           {/* Desktop Resume Button */}
           <a
@@ -42,6 +45,7 @@ const About: React.FC = () => {
           </a>
         </div>
 
+
         {/* About Text */}
         <div className="text-gray-200 text-lg md:text-xl leading-relaxed space-y-6">
           <p>
@@ -63,6 +67,7 @@ const About: React.FC = () => {
             diagrams.
           </p>
 
+
           <p>
             I'm active in the{" "}
             <a
@@ -83,6 +88,7 @@ const About: React.FC = () => {
             competing seriously.
           </p>
 
+
           <p>
             I completed my schooling at Delhi Public School, Siliguri, and I'm
             currently a second‑year Computer Science & Engineering undergraduate
@@ -91,6 +97,7 @@ const About: React.FC = () => {
             ideas, breaking things, and rebuilding them better.
           </p>
         </div>
+
 
         {/* Mobile Resume Button */}
         <div className="sm:hidden mt-8">
@@ -106,5 +113,6 @@ const About: React.FC = () => {
     </section>
   );
 };
+
 
 export default About;
