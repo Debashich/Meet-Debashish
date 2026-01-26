@@ -15,27 +15,17 @@ const Hero: React.FC = () => {
       <div className="max-w-4xl w-full text-center space-y-8">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
           Hi, I'm{" "}
-          <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+          <span className="text-white">
             Debashish!
           </span>
         </h1>
-
-        <p className="text-lg md:text-xl text-gray-400">
-          I work on fast and reliable backend systems and infrastructure
-        </p>
 
         <div className="text-2xl md:text-3xl font-semibold text-blue-400">
           <Typewriter />
         </div>
 
         <div className="flex flex-wrap justify-center gap-4 pt-6">
-          <a
-            href="#projects"
-            className="px-6 py-3 rounded-lg bg-white/5 hover:bg-white/10 transition font-medium border border-white/10"
-          >
-            View Projects
-          </a>
-
+          
           <a
             href="https://github.com/Debashich"
             target="_blank"
@@ -58,7 +48,6 @@ const Hero: React.FC = () => {
             LinkedIn
           </a>
 
-          {/* Resume Button - Visible on all screens */}
           <a
             href="/DEBASHISH_SINHA_RESUME.pdf"
             download="DEBASHISH_SINHA_RESUME.pdf"
