@@ -9,6 +9,7 @@ const TechStack: React.FC = () => {
       { name: "AWS", img_src: "https://www.rededucation.com/wp-content/uploads/2025/10/PikPng.com_run-dmc-png_5240809.png" },
       { name: 'Linux', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },
       { name: 'Golang', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg' },
+      { name: 'Gin', img_src: 'https://logo.svgcdn.com/l/gin.svg' },
       { name: 'Git', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
       { name: "Bash", img_src: "https://d33wubrfki0l68.cloudfront.net/7c8561d6a2795e512d1f3165ed7edd9405419968/ad392/img/symbol/svg/full_colored_light.svg" },
       { name: 'Nginx', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg' },
