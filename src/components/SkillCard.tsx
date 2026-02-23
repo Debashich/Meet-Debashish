@@ -17,20 +17,19 @@ const SkillCard = (props: SkillCardProps) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-
     setMouseX(x);
     setMouseY(y);
   };
 
   return (
     <div
-      className={`card  ${hovered ? 'hovered' : ''}`}
+      className={`card ${hovered ? 'hovered' : ''}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onMouseMove={handleMouseMove}
     >
-      <div className="card-content flex justify-center">
-        <div className="skill-card-image ">
+      <div className="card-content flex justify-center min-h-[2.5rem] items-center">
+        <div className="skill-card-image">
           <img
             src={props.img_src}
             alt={props.name}
@@ -40,10 +39,12 @@ const SkillCard = (props: SkillCardProps) => {
             loading="lazy"
           />
         </div>
-        <div className="card-info-wrapper ">
-          <div className="card-info ">
-            <div className="card-info-title">
-              <h4 className="text-center">{props.name}</h4>
+        <div className="card-info-wrapper">
+          <div className="card-info">
+            <div className="card-info-title text-center">
+              <h4 className="min-h-[2.5rem] flex items-center justify-center text-sm font-semibold">
+                {props.name}
+              </h4>
             </div>
           </div>
         </div>
