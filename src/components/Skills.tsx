@@ -16,7 +16,6 @@ const TechStack: React.FC = () => {
       { name: 'JavaScript', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
       { name: 'React', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
       { name: 'OpenTelemetry', img_src: 'https://layer5.io/static/4a8f123b0c66e54edf086640229da650/opentelemetry-operator-color.svg'},
-      { name: 'Ink', img_src: 'https://raw.githubusercontent.com/vadimdemedes/ink/HEAD/media/logo.png'},
       { name: 'MySQL', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg' },
       { name: 'Python', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
       { name: 'GitHub', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
@@ -34,6 +33,8 @@ const TechStack: React.FC = () => {
       // { name: 'Pandas', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg' },
       // { name: 'Matplotlib', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg' },
       // { name: 'Seaborn', img_src: 'https://seaborn.pydata.org/_images/logo-mark-lightbg.svg' },
+      // { name: 'Ink', img_src: 'https://raw.githubusercontent.com/vadimdemedes/ink/HEAD/media/logo.png'},
+
   ];
 
   return (
