@@ -4,7 +4,7 @@ import SkillCard from './SkillCard';
 const TechStack: React.FC = () => {
   const allSkills = 
   [
-      { name: 'Kubernetes', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg' },
+      { name: 'Kubernetes', img_src: 'https://techstack-generator.vercel.app/kubernetes-icon.svg' },
       { name: 'Docker', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
       { name: "AWS", img_src: "https://www.rededucation.com/wp-content/uploads/2025/10/PikPng.com_run-dmc-png_5240809.png" },
       { name: 'Linux', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },
@@ -14,7 +14,7 @@ const TechStack: React.FC = () => {
       { name: "Bash", img_src: "https://d33wubrfki0l68.cloudfront.net/a1da522d0a3057a1bc3fb411fcbbf57a447c1146/65e71/img/symbol/svg/full_colored_dark.svg" },
       { name: 'TypeScript', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
       { name: 'JavaScript', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'React', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+      { name: 'React', img_src: 'https://techstack-generator.vercel.app/react-icon.svg' },
       { name: 'OpenTelemetry', img_src: 'https://layer5.io/static/4a8f123b0c66e54edf086640229da650/opentelemetry-operator-color.svg'},
       { name: 'MySQL', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg' },
       { name: 'Python', img_src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
