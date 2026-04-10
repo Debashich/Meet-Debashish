@@ -24,15 +24,28 @@ const FeaturedProjects: React.FC = () => {
       description: 'A scalable REST API built for high-performance data processing.',
       highlights: [
         'JWT authentication system',
-        'Event aggregation & normalization engine',
         'Real-time conflict detection',
         'GitHub Actions CI/CD pipeline',
-        'Search & filtering with caching',
       ],
       github: 'https://github.com/Debashich/Atlas',
       demo: '#',
       projectPage: '/atlas',
     },
+    {
+      "title": "gocli",
+      "type": "System Tool / CLI",
+      "tech": "Go, GitHub Actions, Generics",
+      "description": "A high-performance CLI utility for task management featuring a type-safe generic engine and automated CI/CD workflows.",
+      "highlights": [
+        "Generic storage engine",
+        "GitHub Actions CI/CD pipeline",
+        "Automated Linting & QA"
+      ],
+      "github": "https://github.com/Debashich/gocli",
+      "demo": "#",
+      "projectPage": "/gocli"
+    }
+
     // {
     //   title: 'DevOps Pipeline',
     //   type: 'CI/CD Infrastructure',
@@ -97,7 +110,7 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
         ref={cardRef}
         href={project.projectPage}
         onMouseMove={handleMouseMove}
-        className="project-card-glow relative bg-[#23272F] p-6 rounded-lg shadow-lg border border-gray-700 hover:border-orange-500 transition-all duration-300 overflow-hidden flex flex-col w-full max-w-sm cursor-pointer block"
+        className="project-card-glow relative bg-[#23272F] p-6 rounded-lg shadow-lg border border-gray-700 hover:border-orange-500 transition-all duration-300 overflow-hidden flex flex-col w-full max-w-sm h-[320px] cursor-pointer block"
         style={{
           ['--mouse-x' as string]: '50%',
           ['--mouse-y' as string]: '50%'
