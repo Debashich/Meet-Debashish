@@ -22,7 +22,7 @@ html {
 /* SkillCard Styles */
 .card {
   position: relative;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.295);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 8px;
   padding: 1rem;
