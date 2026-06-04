@@ -18,24 +18,10 @@ const FeaturedProjects: React.FC = () => {
       projectPage: '/gophernet',
     },
     {
-      title: 'Atlas',
-      type: 'Event Discovery & Planning Platform',
-      tech: 'Go, PostgreSQL, Docker, React, TypeScript',
-      description: 'A scalable REST API built for high-performance data processing.',
-      highlights: [
-        'JWT authentication system',
-        'Real-time conflict detection',
-        'GitHub Actions CI/CD pipeline',
-      ],
-      github: 'https://github.com/Debashich/Atlas',
-      demo: '#',
-      projectPage: '/atlas',
-    },
-    {
-      "title": "gocli",
-      "type": "System Tool / CLI",
-      "tech": "Go, GitHub Actions, Generics",
-      "description": "A high-performance CLI utility for task management featuring a type-safe generic engine and automated CI/CD workflows.",
+      title: "Kami",
+      type: "System Tool / CLI",
+      tech: "Go, GitHub Actions, Generics",
+      description: "A high-performance CLI utility for task management featuring a type-safe generic engine and automated CI/CD workflows.",
       "highlights": [
         "Generic storage engine",
         "GitHub Actions CI/CD pipeline",
@@ -45,21 +31,6 @@ const FeaturedProjects: React.FC = () => {
       "demo": "#",
       "projectPage": "/gocli"
     }
-
-    // {
-    //   title: 'DevOps Pipeline',
-    //   type: 'CI/CD Infrastructure',
-    //   tech: 'Docker, Kubernetes, GitHub Actions',
-    //   description: 'Automated deployment pipeline for containerized applications.',
-    //   highlights: [
-    //     'Container orchestration',
-    //     'Automated testing',
-    //     'Zero-downtime deployment',
-    //   ],
-    //   github: 'https://github.com/Debashich',
-    //   demo: '#',
-    //   projectPage: '/devopspipeline',
-    // },
   ];
 
   return (
