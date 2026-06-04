@@ -22,14 +22,14 @@ const FeaturedProjects: React.FC = () => {
       type: "System Tool / CLI",
       tech: "Go, GitHub Actions, Generics",
       description: "A high-performance CLI utility for task management featuring a type-safe generic engine and automated CI/CD workflows.",
-      "highlights": [
+      highlights: [
         "Generic storage engine",
         "GitHub Actions CI/CD pipeline",
         "Automated Linting & QA"
       ],
-      "github": "https://github.com/Debashich/gocli",
-      "demo": "#",
-      "projectPage": "/gocli"
+      github: "https://github.com/Debashich/Kami",
+      demo: "#",
+      projectPage: "/gocli"
     }
   ];
 
@@ -121,19 +121,6 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
             </svg>
           </a>
 
-          {/* Rocket Deploy Button */}
-          {/* <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            className="p-2.5 bg-orange-500 text-white rounded-full hover:bg-orange-600 hover:scale-110 transition-all duration-200"
-            aria-label="View Live Demo"
-          >
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M13.13 22.19l-1.63-3.83c-.08-.18-.29-.3-.5-.3s-.42.12-.5.3l-1.63 3.83c-.1.24.06.51.32.55l3.62.6c.26.04.52-.19.62-.43.1-.24-.06-.51-.32-.55zm8.1-9.23c-.43-2.73-1.87-5.17-4.01-6.83l.89-1.32c.22-.33.13-.77-.2-.99-.33-.22-.77-.13-.99.2l-.89 1.32c-.64-.38-1.33-.68-2.06-.88.12-.54.46-1 .91-1.28.45-.28 1.01-.38 1.54-.28.53.1.98.4 1.26.85.28.45.38 1.01.28 1.54-.1.53-.4.98-.85 1.26-.45.28-1.01.38-1.54.28-.25-.05-.5.12-.55.37-.05.25.12.5.37.55.73.15 1.5.01 2.13-.38.63-.39 1.08-1.01 1.24-1.74.16-.73.03-1.5-.38-2.13-.39-.63-1.01-1.08-1.74-1.24-.73-.16-1.5-.03-2.13.38-.63.39-1.08 1.01-1.24 1.74-.06.26-.09.52-.1.78-1.95.08-3.83.84-5.29 2.16-1.65 1.49-2.66 3.56-2.84 5.83-.18 2.26.44 4.5 1.75 6.3.08.11.19.19.32.23l3.62.6c.26.04.52-.19.62-.43l1.63-3.83c.08-.18.29-.3.5-.3s.42.12.5.3l1.63 3.83c.1.24.36.47.62.43l3.62-.6c.13-.04.24-.12.32-.23 1.31-1.8 1.93-4.04 1.75-6.3z" />
-            </svg>
-          </a> */}
           <a
             href={project.demo}
             target="_blank"
